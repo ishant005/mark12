@@ -12,5 +12,4 @@ const outputE1=document.querySelector('#output');
 function isTriangle() {
     const SumofAngles=calculateSumofAngles(45,45,90);  
 }
-
 isTriangleBtn.addEventListener("click",isTriangle)
