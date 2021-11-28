@@ -1,0 +1,46 @@
+body{
+    background-color: cornsilk;
+}
+.div-for-nav{
+   color:black;
+   font-size: 30px;
+   font-weight:bolder;
+  padding-left:150px;
+  background-color: coral;
+  width: 350px;
+
+
+
+}
+.navigation-bar{
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  
+    
+    /* flex-direction: column; */
+}
+
+.list-of-nav{
+    display: flex;
+  
+}
+
+.link{
+    color: white;
+    font-size: 18px;
+    /* list-style: none; */
+    /* display: flex; */
+    
+}
+.nav-list{
+    list-style: none;
+    margin-left: 20px;
+}
