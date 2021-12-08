@@ -1,6 +1,9 @@
 body{
     background-color: cornsilk;
 }
+.Quiz{
+   padding-left:500px;
+}
 .div-for-nav{
    color:black;
    font-size: 30px;
@@ -43,4 +46,9 @@ body{
 .nav-list{
     list-style: none;
     margin-left: 20px;
+}
+.submit-answer-btn{
+    background-color:brown;
+    border: 1px solid red;
+
 }
