@@ -9,10 +9,14 @@ function calculateSumOfSquares(a,b){
 
 
 function calculateHypotenuse(){
+  if(sides[0].value>0 && sides[1].value>0){
   const sumOfSquares=  calculateSumOfSquares(
     Number(sides[0].value),Number(sides[1].value));
-   const lengthOfHypotenuse=Math.sqrt(sumOfSquares);
+   const lengthOfHypotenuse=Math.sqrt(sumOfSquares).toFixed(2);
   outputEl.innerText="The length of hypotenuse is"+
    lengthOfHypotenuse;
+  }else{
+    outputEl.innerText="Cannot accept negative or zero values";
+  }
 }
 hypotenuseBtn.addEventListener("click",calculateHypotenuse);

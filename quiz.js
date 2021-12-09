@@ -5,15 +5,19 @@ const outputEl=document.querySelector("#output");
 const correctAnswers=["90","right angled","acute","Scalene Triangle","Hypotenuse"];
 
 function calculateScore(){
-     let score=0;
+     
      let index=0;
      const formResults=new FormData(quizForm);
+     let score=0;
      for(let value of formResults.values()){
+         for(let index=0;index<=4;index++){
          if(value===correctAnswers[index]){
              score=score+1;
-         }
+         
          index=index+1;
      }
+    }
+}
      outputEl.innerText="Your score is"+score;
 
 }
