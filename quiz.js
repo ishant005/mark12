@@ -2,7 +2,7 @@ const quizForm=document.querySelector('.quiz-form');
 const submitAnswerBtn=document.querySelector("#submit-answer-btn")
 
 const outputEl=document.querySelector("#output");
-const correctAnswers=["90","right angled","acute","Scalene Triangle","Hypotenuse"];
+const correctAnswers=["90","right angled","less90","Scalene Triangle","Hypotenuse"];
 
 function calculateScore(){
      
